@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="ch01">
+        <df name="build">
+          <df name="CMakeFiles">
+            <df name="3.16.3">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+          </df>
+        </df>
+        <in>01-01.cpp</in>
+        <in>HelloWorld.cpp</in>
+        <in>calculateInterest.cpp</in>
+        <in>ud210_calc_area.cpp</in>
+      </df>
+      <df name="ch02">
+        <in>02-07.cpp</in>
+        <in>ch02_break.cpp</in>
+        <in>ch02_continue.cpp</in>
+        <in>ch02_do_while.cpp</in>
+        <in>ch02_while.cpp</in>
+        <in>ud210_do_while_loops.cpp</in>
+        <in>ud210_while_loops_random_target.cpp</in>
+      </df>
+    </df>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false"
@@ -11,6 +40,9 @@
     </logicalFolder>
   </logicalFolder>
   <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Default" type="0">
@@ -26,13 +58,48 @@
           <buildCommandWorkingDir>.</buildCommandWorkingDir>
           <buildCommand>${MAKE} -f Makefile</buildCommand>
           <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
-          <executablePath></executablePath>
+          <executablePath>ch01/build/main.exe</executablePath>
         </makeTool>
         <preBuild>
           <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
           <preBuildCommand>${CMAKE} -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .</preBuildCommand>
         </preBuild>
       </makefileType>
+      <item path="ch01/01-01.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch01/HelloWorld.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch01/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="ch01/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="ch01/calculateInterest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch01/ud210_calc_area.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch02/02-07.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch02/ch02_break.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch02/ch02_continue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch02/ch02_do_while.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch02/ch02_while.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch02/ud210_do_while_loops.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ch02/ud210_while_loops_random_target.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
     </conf>
   </confs>
 </configurationDescriptor>
