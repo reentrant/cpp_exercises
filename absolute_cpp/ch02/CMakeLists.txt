@@ -1,0 +1,4 @@
+project (absolute_cpp)
+cmake_minimum_required(VERSION 3.16.3)
+add_executable (main.exe ch02_while_greetings.cpp)
+

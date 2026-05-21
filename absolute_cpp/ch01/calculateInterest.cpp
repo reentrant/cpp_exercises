@@ -3,7 +3,7 @@ using namespace std;
 
 int main( )
 {
-    const double RATE = 7.0;
+    const double RATE = 13.0;
     double deposit;
 
     cout << "Enter the amount of your deposit $";
