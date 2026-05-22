@@ -8,7 +8,7 @@ int main( )
     cout << "How many greetings do you want? (w/ DO while)";
     cin >> countDown;
 
-    do
+    do // NOTE: it executes at least once (even if countDown equals 0)
     {
         cout << "Hello ";
         countDown = countDown - 1;

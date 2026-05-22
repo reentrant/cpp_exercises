@@ -6,9 +6,9 @@
 */
 
 #include <iostream>
-#include <sstream>
-#include <time.h>   //added for the random number generator seed
-#include <cstdlib>  //added to use the rand function
+#include <sstream>  // used for stringstream()
+#include <time.h>   // added for the random number generator seed
+#include <cstdlib>  // added to use the rand function
 
 int main()
 {
@@ -32,7 +32,7 @@ int main()
             std::cout<<"The number was "<<target<<"\n";
             break;
         }
-        //convert to an int
+        //convert string to integer
         std::stringstream(userString) >> guess;
         std::cout << userString<<"\n";
         if(guess > target)

@@ -11,7 +11,7 @@ int main( )
 
     totalCalories = 0;
     count = 1;
-    cout << "Enter the number of calories in each of the\n"
+    cout << "Enter the number of calories in each of the "
          << numberOfItems << " items eaten:\n";
 
     while (count++ <= numberOfItems) 
